@@ -1,0 +1,62 @@
+body{
+    margin: 0%; /*Remove a margem padrão do navegador*/
+}
+
+ul{
+    list-style: none;/*Muda as bolinhas do indices*/
+    padding: 0; /*Remove o espaço interno da lista*/
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    transition: all .8s;
+}
+
+nav{
+    background-color: #161616;
+    padding: 0 20px; /*Adiciona espaçamento interno a esquerda e a direita*/
+
+    /* padding-left:0;
+    padding-right:0;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, p{
+    color: #fff; /*Define a cor do texto*/
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 0% 20px;
+    transition: all .8s;
+}
+
+li:hover , h1:hover{
+    cursor: pointer; /*Some o mouse e aparece uma mãozinha*/
+    opacity: 0.8; /*Deixa o item mais claro ao passar o mouse*/
+    background-color: aliceblue;
+}
+
+.categorias{
+    color: #757575;
+
+}
+
+.Img{
+    float: right;
+}
+
+.Img2{
+
+    float: right;
+}
+
+.PS5{
+
+    padding: 20px;
+}
